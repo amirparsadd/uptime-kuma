@@ -22,7 +22,7 @@
     <div class="mb-3">
         <label for="smsir-template" class="form-label">{{ $t("Max length") }}</label>
         <input id="smsir-template" v-model="$parent.notification.smsirMaxLength" placeholder="Example: 30" type="text" class="form-control">
-        <div class="form-text">{{ $t("Do not modify this unless support has provided an updated maximum length.") }}</div>
+        <div class="form-text">{{ $t("smsirMaxLengthDescription") }}</div>
     </div>
 </template>
 <script>
